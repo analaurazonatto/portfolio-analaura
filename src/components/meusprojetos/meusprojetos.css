@@ -1,0 +1,26 @@
+.about, .services, .contact, .teams{
+    font-family: 'Roboto', sans-serif;
+    background: #5ADDC9;
+
+}
+
+.teams .carousel .card{
+    background: #5ADDC9;
+    border-radius: 6px;
+    padding: 25px 35px;
+}
+
+.teams .carousel .card .img_projetos{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #000000;    
+}
+
+.teams .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

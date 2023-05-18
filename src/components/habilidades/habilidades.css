@@ -1,0 +1,41 @@
+.services {
+    color: rgb(56, 6, 56);
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.about .about-content .right .text, .services {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.about .about-content, .services, .contact {
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background: #5ADDC9;
+}
+.about, .services, .contact, .teams {
+    font-family: 'Roboto', sans-serif;
+    background: #5ADDC9;
+}
+section {
+    padding: 100px 0px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background: rgb(90, 221, 201);
+    text-decoration: none;
+}
+user agent stylesheet
+section {
+    display: block;
+}
+
+.box svg {
+    font-size: 1.5em;
+}
